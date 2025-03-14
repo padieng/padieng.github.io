@@ -1,0 +1,49 @@
+/* Body styling with background image */
+body {
+    background-image: url('silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: Georgia, Garamond, serif;
+    color: #404040;
+    font-size: 11pt;
+}
+
+/* Heading styles with tight background */
+h1, h2 {
+    display: inline-block;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+/* Bullet list with custom pie icon */
+ul {
+    list-style-image: url('pie-icon.gif');
+}
+
+/* Directions list for steps */
+ol li strong {
+    font-weight: bold;
+}
+
+/* Italics for user quotes */
+blockquote {
+    background-color: #FFFFA8;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #A4A400;
+}
+
+/* Footer styling */
+pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+    text-align: left;
+}
